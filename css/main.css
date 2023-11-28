@@ -20,10 +20,9 @@ body {
     margin-bottom: 25px;
     width: 80%;
     height: 80%;
-    opacity: 0.7;
   }
   .person:hover {
-    border-color: #f1f1f1;
+    border-color: #0d696e;
   }
   .carousel-inner img {
     /*-webkit-filter: grayscale(90%);
@@ -43,6 +42,7 @@ body {
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
   }
+
   .bg-1 {
     background: #175659;
     color: #bdbdbd;
