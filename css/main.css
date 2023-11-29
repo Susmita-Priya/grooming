@@ -24,6 +24,12 @@ body {
   .person:hover {
     border-color: #0d696e;
   }
+  .collapsee {
+    display: none !important;
+}
+  .person:hover + .collapsee{
+    display: block !important;
+  }
   .carousel-inner img {
     /*-webkit-filter: grayscale(90%);
    /* filter: grayscale(90%); /* make all photos black and white */ 
@@ -146,3 +152,7 @@ body {
   textarea {
     resize: none;
   }
+  .text-center {
+    text-align: center;
+    margin: 0% !important;
+}
