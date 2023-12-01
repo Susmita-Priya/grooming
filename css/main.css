@@ -20,16 +20,12 @@ body {
     margin-bottom: 25px;
     width: 80%;
     height: 80%;
+    /*cursor: url("clickf/clk.png"), pointer;*/
   }
   .person:hover {
     border-color: #0d696e;
   }
-  .collapsee {
-    display: none !important;
-}
-  .person:hover + .collapsee{
-    display: block !important;
-  }
+ 
   .carousel-inner img {
     /*-webkit-filter: grayscale(90%);
    /* filter: grayscale(90%); /* make all photos black and white */ 
@@ -48,13 +44,18 @@ body {
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
   }
-
+  .hide{
+    display: none;
+  }
   .bg-1 {
     background: #175659;
     color: #bdbdbd;
   }
   .bg-1 h3 {color: #fff;}
   .bg-1 p {font-style: italic;}
+  strong {
+    color: #175659;
+}
   .list-group-item:first-child {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
@@ -74,14 +75,14 @@ body {
   }
   .btn {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #0d696e ;
     color: #f1f1f1;
     border-radius: 0;
     transition: .2s;
   }
   .btn:hover, .btn:focus {
-    border: 1px solid #333;
-    background-color: #fff;
+    border: 1px solid #86c4f7;
+    background-color: #86c4f7;
     color: #000;
   }
   .modal-header, h4, .close {
